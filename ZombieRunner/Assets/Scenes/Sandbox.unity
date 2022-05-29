@@ -1931,18 +1931,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1453737537101854920, guid: 4e91025d73ca87740abfc5686b76af94, type: 3}
-      propertyPath: m_StoppingDistance
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1453737537101854921, guid: 4e91025d73ca87740abfc5686b76af94, type: 3}
       propertyPath: target
       value: 
       objectReference: {fileID: 1239191149}
-    - target: {fileID: 1453737537101854921, guid: 4e91025d73ca87740abfc5686b76af94, type: 3}
-      propertyPath: chaseRange
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 1453737537101854924, guid: 4e91025d73ca87740abfc5686b76af94, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1989,7 +1981,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1453737537101854934, guid: 4e91025d73ca87740abfc5686b76af94, type: 3}
       propertyPath: m_Name
-      value: EnemyPlaceholder
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e91025d73ca87740abfc5686b76af94, type: 3}
