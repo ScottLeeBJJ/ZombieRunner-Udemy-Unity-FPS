@@ -2018,6 +2018,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1453737537101854920, guid: 4e91025d73ca87740abfc5686b76af94, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1453737537101854921, guid: 4e91025d73ca87740abfc5686b76af94, type: 3}
       propertyPath: target
       value: 
