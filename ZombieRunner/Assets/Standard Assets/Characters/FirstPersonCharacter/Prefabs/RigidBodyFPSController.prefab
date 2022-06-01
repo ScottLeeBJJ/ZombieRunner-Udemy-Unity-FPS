@@ -181,6 +181,8 @@ GameObject:
   - component: {fileID: 5400000}
   - component: {fileID: 13600000}
   - component: {fileID: 11400004}
+  - component: {fileID: 1239191150}
+  - component: {fileID: 1239191154}
   m_Layer: 0
   m_Name: RigidBodyFPSController
   m_TagString: Untagged
@@ -303,6 +305,32 @@ MonoBehaviour:
     slowDownRate: 20
     airControl: 0
     shellOffset: 0
+--- !u!114 &1239191150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52dd9abde3c533248baf8b3809694fd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitPoints: 100
+--- !u!114 &1239191154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a90d72976ebe4d4786e7a4707769cc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOverCanvas: {fileID: 0}
 --- !u!1 &6682049425386443428
 GameObject:
   m_ObjectHideFlags: 0
@@ -335,6 +363,80 @@ Transform:
   m_Father: {fileID: 400000}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &624144413
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1060574068780129322}
+    m_Modifications:
+    - target: {fileID: 881509744402631785, guid: 475729870bc0a914085635b7c0b4e508, type: 3}
+      propertyPath: ShapeModule.radius.value
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 881509744402631785, guid: 475729870bc0a914085635b7c0b4e508, type: 3}
+      propertyPath: ShapeModule.radiusThickness
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 881509744402631785, guid: 475729870bc0a914085635b7c0b4e508, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3861471105871726494, guid: 475729870bc0a914085635b7c0b4e508, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3861471105871726494, guid: 475729870bc0a914085635b7c0b4e508, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.241
+      objectReference: {fileID: 0}
+    - target: {fileID: 3861471105871726494, guid: 475729870bc0a914085635b7c0b4e508, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.000000029802322
+      objectReference: {fileID: 0}
+    - target: {fileID: 3861471105871726494, guid: 475729870bc0a914085635b7c0b4e508, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3861471105871726494, guid: 475729870bc0a914085635b7c0b4e508, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.72218907
+      objectReference: {fileID: 0}
+    - target: {fileID: 3861471105871726494, guid: 475729870bc0a914085635b7c0b4e508, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3861471105871726494, guid: 475729870bc0a914085635b7c0b4e508, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.69169563
+      objectReference: {fileID: 0}
+    - target: {fileID: 3861471105871726494, guid: 475729870bc0a914085635b7c0b4e508, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3861471105871726494, guid: 475729870bc0a914085635b7c0b4e508, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3861471105871726494, guid: 475729870bc0a914085635b7c0b4e508, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 87.529
+      objectReference: {fileID: 0}
+    - target: {fileID: 3861471105871726494, guid: 475729870bc0a914085635b7c0b4e508, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4807922794981223778, guid: 475729870bc0a914085635b7c0b4e508, type: 3}
+      propertyPath: m_Name
+      value: MuzzleFlashVFX
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 475729870bc0a914085635b7c0b4e508, type: 3}
+--- !u!198 &881509743780805748 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 881509744402631785, guid: 475729870bc0a914085635b7c0b4e508, type: 3}
+  m_PrefabInstance: {fileID: 624144413}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3375763410345204620
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -424,3 +526,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FPCamera: {fileID: 2000000}
   range: 100
+  damage: 30
+  muzzleFlash: {fileID: 881509743780805748}
+  hitEffect: {fileID: 2708521615556942360, guid: a62836af7ac625047a96084861eb4d8a, type: 3}
