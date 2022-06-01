@@ -182,10 +182,26 @@ PrefabInstance:
       propertyPath: gameOverCanvas
       value: 
       objectReference: {fileID: 442108627}
-    - target: {fileID: 1983303875, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+    - target: {fileID: 1060574068780482570, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7866732951836194363, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: FPCamera
+      value: 
+      objectReference: {fileID: 162257929}
+    - target: {fileID: 7866732951836194363, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: ammoSlot
       value: 
       objectReference: {fileID: 1239191156}
+    - target: {fileID: 7866732951836194363, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: hitEffect
+      value: 
+      objectReference: {fileID: 2708521615556942360, guid: a62836af7ac625047a96084861eb4d8a, type: 3}
+    - target: {fileID: 7866732951836194363, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: muzzleFlash
+      value: 
+      objectReference: {fileID: 801445833}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
 --- !u!1 &90536377
@@ -354,6 +370,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 9ae7f9f9eacff4142b21eb85ae606fdc, type: 3}
   m_PrefabInstance: {fileID: 152462570}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &162257929 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 2000000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+  m_PrefabInstance: {fileID: 29344844}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &166031387
 PrefabInstance:
@@ -1402,6 +1423,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 38.176, y: -78.721, z: -35.148}
+--- !u!198 &801445833 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 881509743780805748, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+  m_PrefabInstance: {fileID: 29344844}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &913862041
 PrefabInstance:
   m_ObjectHideFlags: 0
