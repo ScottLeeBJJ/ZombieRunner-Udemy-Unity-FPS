@@ -198,6 +198,10 @@ PrefabInstance:
       propertyPath: fpsController
       value: 
       objectReference: {fileID: 1239191157}
+    - target: {fileID: 6682049425386443428, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7866732951836194363, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: range
       value: 10
@@ -1650,6 +1654,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1453737537101854924, guid: 4e91025d73ca87740abfc5686b76af94, type: 3}
   m_PrefabInstance: {fileID: 1076746745}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1179124328 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6682049425386443428, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+  m_PrefabInstance: {fileID: 29344844}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1179124330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179124328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ac8d90c4a8d351429d6b84230475dc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentWeapon: 0
 --- !u!1001 &1226117929
 PrefabInstance:
   m_ObjectHideFlags: 0
