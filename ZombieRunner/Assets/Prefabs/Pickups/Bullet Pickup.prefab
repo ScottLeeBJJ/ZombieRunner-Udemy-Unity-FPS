@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5208524252743160158}
   - component: {fileID: 3267157551850978516}
   m_Layer: 0
-  m_Name: Ammo Pickup
+  m_Name: Bullet Pickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 4405604746302810269}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5415731361170632139}
