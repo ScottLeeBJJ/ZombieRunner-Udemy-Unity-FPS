@@ -194,6 +194,22 @@ PrefabInstance:
       propertyPath: timeBetweenShots
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 4617204349395974970, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: ammoSlots.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4617204349395974970, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: ammoSlots.Array.data[1].ammoType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4617204349395974970, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: ammoSlots.Array.data[0].ammoAmount
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4617204349395974970, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: ammoSlots.Array.data[1].ammoAmount
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5128669949337854363, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: fpsController
       value: 
